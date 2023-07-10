@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1720">
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" /><!--수정X-->
+    <link href="./css/slidebanner.css" rel="stylesheet" type="text/css"><!--디자인에 맞게 수정-->
+
+
+    <!-- 슬라이드 css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" /><!--수정X-->
+    <link href="./css/flowslide.css" rel="stylesheet" type="text/css"><!--디자인에 맞게 수정-->
+
+
+    <!-- style -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.7/dist/web/static/pretendard.css" />
+
+    <title>아로리</title>
+</head>
+
+<body>
+    <header>
+        <!-- header top -->
+        <div class="head_top">
+            <a class="main_logo" href="#"><img src="./images/main_logo.png" alt="logo"></a>
+            <ul>
+                <li><a href="#">로그인</a></li>
+                <li>|</li>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#"><img src="./images/main_search.png" alt="main_search btn"></a></li>
+                <li>
+                    <div class="my_box">
+                        <a href="./sub5.html">나의 서점</a></div>
+                </li>
+            </ul>
+        </div>
+
+        </div>
+        <div class="head_bn">
+            <ul>
+                <li class="head_on">
+                    <a href="#none">
+                        <div class="mini_title">
+                            오늘, 아로리의 추천
+                        </div>
+                        <p>"우리는 이 별을 떠나기로 했어"</p>
+                        <p><b>5인의 여성작가가 전하는 지구 밖 이야기</b></p>
+                    </a>
+                    <em></em>
+                </li>
+                <li>
+                    <a href="#none">
+                        <div class="mini_title">
+                            이벤트
+                        </div>
+                        <p>우리가 만든 첫번째 책 이야기</p>
+                        <p><b>월간 아로리 Vol.1을 소개합니다!</b></p>
+                    </a>
+                    <em></em>
+                </li>
+                <li>
+                    <a href="#none">
+                        <div class="mini_title">
+                            공지사항
+                        </div>
+                        <p>아로리가 포장하고 보냅니다.</p>
+                        <p><b>판매/택배 대행 서비스</b></p>
+                    </a>
+                    <em></em>
+                </li>
+            </ul>
+
+            <div class="main_popup_1">
+                <a href="#">
+                    <div class="bn_inner_text">
+                        <p>5인의 여성작가가 전하는 지구 밖 이야기</p>
+                        <h1>여자들은<br>
+                            이곳이 아닌 다른 곳에서<br>
+                            다른 이야기를 꿈꾼다
+                            <h3>보러가기 ></h3>
+                    </div>
+                </a>
+
+                <img src="./images/main_bn_book.png" alt="bn이미지">
+            </div>
+
+            <div class="main_popup_2">
+                <a href="#">
+                    <div class="bn_inner_text">
+                        <p>아로리가 만든 첫번째 책 이야기</p>
+                        <h1>특별 기획으로 만나는 <br>
+                            월간 아로리 Vol.1</h1>
+                        <h3>지금 구독하기 ></h3>
+                    </div>
+                </a>
+
+                <img src="./images/main_bn_catal.png" alt="bn이미지">
+            </div>
+
+            <div class="main_popup_3">
+                <a href="#">
+                    <div class="bn_inner_text">
+                        <p>마음을 담아 포장하고, 최고의 상태로 보냅니다.</p>
+                        <h1>판매 / 택배<br>
+                            대행 서비스</h1>
+                        <h3>자세히 알아보기 ></h3>
+                    </div>
+                </a>
+
+                <img src="./images/main_bn_box.png" alt="bn이미지">
+            </div>
+
+        </div>
+        <div class="main_nav">
+            <ul>
+                <li>
+                    <a href="./sub1.html">
+                        <img src="./images/menu_icon_1.png" alt="">
+                        <br>
+                        <p>아로리 소개<div class="solid"></div></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./sub2.html">
+                        <img src="./images/menu_icon_2.png" alt="">
+                        <br>
+                        <p>국내 · 해외 도서<div class="solid"></div></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./sub3.html">
+                        <img src="./images/menu_icon_3.png" alt="">
+                        <br>
+                        <p>CD · DVD<div class="solid"></div></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./sub4.html">
+                        <img src="./images/menu_icon_4.png" alt="">
+                        <br>
+                        <p>이벤트<div class="solid"></div></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./sub5.html">
+                        <img src="./images/menu_icon_5.png" alt="">
+                        <br>
+                        <p>나의 서점<div class="solid"></div></p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- header E -->
+
+    <!-- today -->
+    <div id="today">
+        <div id="today_inner">
+            <h2>오늘의 추천</h2>
+            <ul>
+                <li class="today_right_img"><img src="./images/today_bn_img.png" alt=""></li>
+                <li class="today_right_img"><img src="./images/today_bn_img2.png" alt=""></li>
+                <li class="today_right_img"><img src="./images/today_bn_img3.png" alt=""></li>
+
+                <li>
+                    <div class="today_text today_popup_1">
+
+                        <b>우리는 이 별을 떠나기로 했어</b>
+                        <p>천선란 ㅣ 박해울 ㅣ 박문영 ㅣ 오정현 ㅣ 이루카</p>
+                        <p>1908년, 1975년, 2019년,<br>
+                            그리고 2021년의 여성들. <br>
+                            시공간을 넘어 공명하는 여성들의 이야기.</p>
+
+                        <p class="today_btn">
+                            <a href="#">지금 보러가기</a>
+                        </p>
+                    </div>
+
+                    <div class="today_text today_popup_2">
+                        <b>당신은 결국 무엇이든 해내는 사람</b>
+                        <p>김상현</p>
+                        <p>독자들에게 전하는 10만 부 기념 특별 리커버 에디션!<br>
+                            “우리는 결국 무엇이든 해낼 수 있는 사람입니다.<br>
+                            당신의 내일을 응원합니다.”</p>
+
+                        <p class="today_btn">
+                            <a href="#">지금 보러가기</a>
+                        </p>
+                    </div>
+
+                    <div class="today_text today_popup_3">
+                        <b>세이노의 가르침</b>
+                        <p>세이노</p>
+                        <p>순자산 천억 원대 자산가,<br>
+                            세이노의 '요즘 생각'을 만나다.</p>
+
+                        <p class="today_btn">
+                            <a href="#">지금 보러가기</a>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <ul class="today_right_list">
+                        <li class="today_on"><a href="#none">우리는 이 별을 떠나기로 했어</a></li>
+                        <li><a href="#none">당신은 결국 무엇이든 해내는 사람</a></li>
+                        <li><a href="#none">세이노의 가르침</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- new B -->
+    <div id="new_book">
+
+        <div class="new_book_title">
+            <h2>새로운 책</h2>
+            <p><a href="#"><b>더 보기</b></a></p>
+        </div>
+
+        <!-- 슬라이드 구문 -->
+        <div class="swiper-container flowslide">
+                <div class="flowslide_inner">
+                    <div class="swiper-wrapper new_book_list">
+                        <div class="swiper-slide">
+                            <a href="#"><img src="./images/nb1.png" alt="갤러리1"></a>
+                            <h4>더 케이지</h4>
+                            <p>보니 키스틀러|안은주 역</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="./images/nb2.png" alt="갤러리1"></a>
+                            <h4>하얼빈</h4>
+                            <p>김훈</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="./images/nb3.png" alt="갤러리1"></a>
+                            <h4>도둑맞은 집중력</h4>
+                            <p>요한 하리</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="./images/nb4.png" alt="갤러리1"></a>
+                            <h4>만조를 기다리며</h4>
+                            <p>조예은</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="./images/nb5.png" alt="갤러리1"></a>
+                            <h4>세이노의 가르침</h4>
+                            <p>세이노</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#"><img src="./images/nb6.png" alt="갤러리1"></a>
+                            <h4>최선을 다하면 죽는다</h4>
+                            <p>황선우, 김혼비</p>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+
+        <div class="swiper-container flowslide">
+            <div class="flowslide_inner">
+                <div class="swiper-wrapper new_book_list">
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./images/nb7.png" alt="갤러리1"></a>
+                        <h4>나는 죽을 때까지 지적이고 싶다</h4>
+                        <p>양원근</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./images/nb8.png" alt="갤러리1"></a>
+                        <h4>바다가 들리는 편의점</h4>
+                        <p>마치다 소노코</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./images/nb9.png" alt="갤러리1"></a>
+                        <h4>빈 살만의 두 얼굴</h4>
+                        <p>브래들리 호프 , 저스틴 셱</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./images/nb10.png" alt="갤러리1"></a>
+                        <h4>아주 사적인 여행</h4>
+                        <p>양주안</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./images/nb11.png" alt="갤러리1"></a>
+                        <h4>검은 새</h4>
+                        <p>이수지</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./images/nb12.png" alt="갤러리1"></a>
+                        <h4>생물학의 쓸모</h4>
+                        <p>김응빈</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- best_seller -->
+    <div id="best_seller">
+        <h2 class="best_s_title">베스트 셀러</h2>
+
+        <!-- 슬라이드 구문 -->
+        <div class="swiper-container slide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <ul class="best_s_con">
+                        <li>
+                            <h5 class="best_title">
+                                세이노의<br>
+                                가르침
+                            </h5>
+                        </li>
+                        <li>
+                            <img src="./images/main_best_1.png" alt="">
+                        </li>
+                        <li>
+                            <p>
+                                재야의 명저 《세이노의 가르침》<br>
+                                2023년판 정식 출간!<br>
+                                순자산 천억 원대 자산가,<br>
+                                세이노의 ‘요즘 생각’을 만나다!
+                                <br>
+                                <br>
+                                저자(글) 세이노(SayNo)<br>
+                                데이원 · 2023년 03월 02일
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-slide">
+                    <ul class="best_s_con">
+                        <li>
+                            <h5 class="best_title">
+                                바다가<br>
+                                들리는<br>
+                                편의점
+                            </h5>
+                        </li>
+                        <li>
+                            <img src="./images/main_best_2.png" alt="">
+                        </li>
+                        <li>
+                            <p>
+                                “언제든 찾아오세요. <br>
+                                항상 여기에 있을 테니까요”<br>
+                                <br>
+                                오늘도 변함없이 불을 밝히고<br>
+                                손님을 맞는 이곳에서<br>
+                                서로 다른 각자가 함께<br>
+                                행복해지는 이야기가 펼쳐진다
+                                <br>
+                                <br>
+                                저자(글) 마치다 소노코 · 번역 황국영<br>
+                                모모 · 2023년 03월 24일
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-slide">
+                    <ul class="best_s_con">
+                        <li>
+                            <h5 class="best_title">
+                                도둑맞은<br>
+                                집중력
+                            </h5>
+                        </li>
+                        <li>
+                            <img src="./images/main_best_3.png" alt="">
+                        </li>
+                        <li>
+                            <p>
+                                우리는 단순히 집중력을<br>
+                                잃고 있는 것이 아니라<br>
+                                적극적으로 도난당하고 있다<br>
+                                <br>
+                                집중력 위기의 시대,<br>
+                                삶의 주도권을 되찾는 법
+                                <br>
+                                <br>
+                                저자(글) 요한 하리 · 번역 김하현<br>
+                                어크로스 · 2023년 04월 28일
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 화살표 버튼 -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- 블릿 버튼 -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <!-- event -->
+    <div id="main_event">
+        <h2>이벤트</h2>
+        <ul>
+            <li><a href="./sub4.html">
+                    <p>아로리가 만든<br>
+                        책 이야기</p>
+                    <p class="main_event_title">
+                        월간 아로리 Vol.1
+                    </p>
+                    <p class="main_event_btn">자세히 알아보기 ></p>
+                </a>
+            </li>
+            <li><a href="./sub4.html">
+                    <div>
+                        <p>첫번째 북-콘서트<br>
+                            여러분을 초대합니다!</p>
+                        <p class="main_event_title">
+                            북-콘서트<br>
+                            【다가올 미래】
+                        </p>
+                        <p class="main_event_btn">자세히 알아보기 ></p>
+                    </div>
+                </a>
+            </li>
+            <li><a href="./sub4.html">
+                    <div>
+                        <p>동네 서점 방문하면<br>
+                            아로리 적립금이!</p>
+                        <p class="main_event_title">
+                            우리 동네 서점 걷기
+                        </p>
+                        <p class="main_event_btn">자세히 알아보기 ></p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- my books (탭)-->
+    <div id="main_my_book">
+        <h2>나만의 책</h2>
+        <ul class="my_book_tab_nav">
+            <li><a href="#my_book_tab1" class="my_on">거리가 가까운 책</a></li>
+            <li><a href="#my_book_tab2">마음이 가까운 책</a></li>
+            <li><a href="#my_book_tab3">내가 담아둔 책</a></li>
+            <li><a href="#my_book_tab4">내가 담아둔 상점</a></li>
+        </ul>
+
+        <div class="my_book_tab_con">
+            <ul id="my_book_tab1">
+                <li class="my_book_list">
+                    <img src="./images/tab_book_1.png" alt="세이노">
+                    <p class="tab_small_title">
+                        나에게서 500M 이내
+                    </p>
+                    <p><b>세이노의 가르침</b></p>
+                    <p class="tab_sub">세이노</p>
+                    <p class="tab_sub">
+                        순자산 천억 원대 자산가,<br>
+                        세이노의 '요즘 생각'을 만나다.
+                    </p>
+                </li>
+                <li class="my_book_list">
+                    <img src="./images/tab_book_2.png" alt="세이노">
+                    <p class="tab_small_title">
+                        나에게서 1KM 이내
+                    </p>
+                    <p><b>도둑맞은 집중력</b></p>
+                    <p class="tab_sub">요한 하리</p>
+                    <p class="tab_sub">
+                        집중력 위기의 시대,<br>
+                        삶의 주도권을 되찾는 법
+                    </p>
+                </li>
+                <li class="my_book_list">
+                    <img src="./images/tab_book_3.png" alt="세이노">
+                    <p class="tab_small_title">
+                        나에게서 500m 이내
+                    </p>
+                    <p><b>바다가 들리는 편의점</b></p>
+                    <p class="tab_sub">마치다 소노코</p>
+                    <p class="tab_sub">
+                        "언제든 찾아오세요. <br>
+                        항상 여기에 있을 테니까요"
+                    </p>
+                </li>
+                <li class="my_book_list">
+                    <img src="./images/tab_book_4.png" alt="세이노">
+                    <p class="tab_small_title">
+                        나에게서 1KM 이내
+                    </p>
+                    <p><b>우리는 이 별을 떠나기로 했어</b></p>
+                    <p class="tab_sub">천선란·박해울·박문영·오정현·이루카</p>
+                    <p class="tab_sub">
+                        1908년, 1975년, 2019년,<br>
+                        그리고 2021년의 여성들. <br>
+                        시공간을 넘어 공명하는<br>
+                        여성들의 이야기.
+                    </p>
+                </li>
+            </ul>
+            <ul id="my_book_tab2">
+                <li class="my_book_list">
+                    <img src="./images/tab_book_1.png" alt="세이노">
+                    <p class="tab_small_title">
+                        자기계발 / 경제
+                    </p>
+                    <p><b>세이노의 가르침</b></p>
+                    <p class="tab_sub">세이노</p>
+                    <p class="tab_sub">
+                        순자산 천억 원대 자산가,<br>
+                        세이노의 '요즘 생각'을 만나다.
+                    </p>
+                </li>
+                <li class="my_book_list">
+                    <img src="./images/tab_book_2.png" alt="세이노">
+                    <p class="tab_small_title">
+                        자기계발
+                    </p>
+                    <p><b>도둑맞은 집중력</b></p>
+                    <p class="tab_sub">요한 하리</p>
+                    <p class="tab_sub">
+                        집중력 위기의 시대,<br>
+                        삶의 주도권을 되찾는 법
+                    </p>
+                </li>
+                <li class="my_book_list">
+                    <img src="./images/tab_book_3.png" alt="세이노">
+                    <p class="tab_small_title">
+                        소설 / 일상
+                    </p>
+                    <p><b>바다가 들리는 편의점</b></p>
+                    <p class="tab_sub">마치다 소노코</p>
+                    <p class="tab_sub">
+                        "언제든 찾아오세요. <br>
+                        항상 여기에 있을 테니까요"
+                    </p>
+                </li>
+                <li class="my_book_list">
+                    <img src="./images/tab_book_4.png" alt="세이노">
+                    <p class="tab_small_title">
+                        SF / 여성
+                    </p>
+                    <p><b>우리는 이 별을 떠나기로 했어</b></p>
+                    <p class="tab_sub">천선란·박해울·박문영·오정현·이루카</p>
+                    <p class="tab_sub">
+                        1908년, 1975년, 2019년,<br>
+                        그리고 2021년의 여성들. <br>
+                        시공간을 넘어 공명하는<br>
+                        여성들의 이야기.
+                    </p>
+                </li>
+            </ul>
+            <ul id="my_book_tab3">
+                <li class="my_book_list">
+                    <img src="./images/tab_book_1.png" alt="세이노">
+                    <p class="tab_small_title">
+                        나의 찜
+                    </p>
+                    <p><b>세이esdff침</b></p>
+                    <p class="tab_sub">세이노</p>
+                    <p class="tab_sub">
+                        순자산 천억 원대 자산가,<br>
+                        세이노의 '요즘 생각'을 만나다.
+                    </p>
+                </li>
+                <li class="my_book_list">
+                    <img src="./images/tab_book_2.png" alt="세이노">
+                    <p class="tab_small_title">
+                        나의 찜
+                    </p>
+                    <p><b>도둑맞은 집중력</b></p>
+                    <p class="tab_sub">요한 하리</p>
+                    <p class="tab_sub">
+                        집중력 위기의 시대,<br>
+                        삶의 주도권을 되찾는 법
+                    </p>
+                </li>
+                <li class="my_book_list">
+                    <img src="./images/tab_book_3.png" alt="세이노">
+                    <p class="tab_small_title">
+                        나의 찜
+                    </p>
+                    <p><b>바다가 들리는 편의점</b></p>
+                    <p class="tab_sub">마치다 소노코</p>
+                    <p class="tab_sub">
+                        "언제든 찾아오세요. <br>
+                        항상 여기에 있을 테니까요"
+                    </p>
+                </li>
+                <li class="my_book_list">
+                    <img src="./images/tab_book_4.png" alt="세이노">
+                    <p class="tab_small_title">
+                        나의 찜
+                    </p>
+                    <p><b>우리는 이 별을 떠나기로 했어</b></p>
+                    <p class="tab_sub">천선란·박해울·박문영·오정현·이루카</p>
+                    <p class="tab_sub">
+                        1908년, 1975년, 2019년,<br>
+                        그리고 2021년의 여성들. <br>
+                        시공간을 넘어 공명하는<br>
+                        여성들의 이야기.
+                    </p>
+                </li>
+            </ul>
+            <ul id="my_book_tab4">
+                <li class="my_book_list">
+                    <img src="./images/tab_book_1.png" alt="세이노">
+                    <p class="tab_small_title">
+                        가나다라 상점
+                    </p>
+                    <p><b>세이노의wqw 가르침</b></p>
+                    <p class="tab_sub">세이노</p>
+                    <p class="tab_sub">
+                        순자산 천억 원대 자산가,<br>
+                        세이노의 '요즘 생각'을 만나다.
+                    </p>
+                </li>
+                <li class="my_book_list">
+                    <img src="./images/tab_book_2.png" alt="세이노">
+                    <p class="tab_small_title">
+                        아로리 상점
+                    </p>
+                    <p><b>도둑맞은 집중력</b></p>
+                    <p class="tab_sub">요한 하리</p>
+                    <p class="tab_sub">
+                        집중력 위기의 시대,<br>
+                        삶의 주도권을 되찾는 법
+                    </p>
+                </li>
+                <li class="my_book_list">
+                    <img src="./images/tab_book_3.png" alt="세이노">
+                    <p class="tab_small_title">
+                        홍길동 헌책방
+                    </p>
+                    <p><b>바다가 들리는 편의점</b></p>
+                    <p class="tab_sub">마치다 소노코</p>
+                    <p class="tab_sub">
+                        "언제든 찾아오세요. <br>
+                        항상 여기에 있을 테니까요"
+                    </p>
+                </li>
+                <li class="my_book_list">
+                    <img src="./images/tab_book_4.png" alt="세이노">
+                    <p class="tab_small_title">
+                        우리동네 헌책방
+                    </p>
+                    <p><b>우리는 이 별을 떠나기로 했어</b></p>
+                    <p class="tab_sub">천선란·박해울·박문영·오정현·이루카</p>
+                    <p class="tab_sub">
+                        1908년, 1975년, 2019년,<br>
+                        그리고 2021년의 여성들. <br>
+                        시공간을 넘어 공명하는<br>
+                        여성들의 이야기.
+                    </p>
+                </li>
+            </ul>
+            <p class="my_book_title">
+                내 취향의<br>
+                책을<br>
+                만나는<br>
+                기쁨<br>
+            </p>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="foo_1">
+            <ul class="foo_1_inner">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">인재채용</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">청소년보호정책</a></li>
+                <li><a href="#">도서홍보안내</a></li>
+                <li><a href="#">광고/제휴안내</a></li>
+            </ul>
+        </div>
+        <div class="foo_2">
+            <div class="foo_2_inner">
+                <ul>
+                    <p>부산광역시 중구 중앙대로 26 다원중앙타워 10층<br>
+                        사업자등록번호 : 000-00-00000 | 통신판매업신고 : 제 2023-00000호<br>
+                        Copyright ⓒ ARORI Corp. All Rights Reserved.</p>
+                </ul>
+                <a href="#"><img src="./images/logo_W.png" alt="footer logo"></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- fixed -->
+    <div class="main_fixed">
+        <a href="#">위로<br>가기</a>
+        <a href="./sub5.html">내책<br>팔기</a>
+    </div>
+
+    <!-- 기본 스크립트 -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+
+
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script><!-- 수정X -->
+    <script src="./js/slidebanner.js"></script><!--디자인에 맞게 수정-->
+
+    <!-- 슬라이드 js -->
+    <script src="./js/flowslide.js"></script><!--디자인에 맞게 수정-->
+
+    <!-- 메인 메뉴 스크롤 -->
+    <script src="./js/main_scroll.js"></script>
+
+    
+
+</body>
+
+</html>

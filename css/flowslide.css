@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* 슬라이드배너 꾸미기 */
+.flowslide {
+	width: 100%;
+	margin: 50px auto;
+	/* padding: 0 0px 40px; */
+	box-sizing: border-box;
+	position: relative;
+}
+
+.flowslide_inner {
+	width: 100%;
+	overflow: hidden;
+}
+.flowslide .swiper-wrapper {
+	transition-timing-function: linear;
+}
+
+.flowslide .swiper-slide a {
+	width: 100%;
+	height: 100%;
+}
+
+.flowslide .swiper-slide img {
+	display: block;
+	width: 70%;
+}
+
+
+  
